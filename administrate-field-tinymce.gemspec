@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'administrate', '< 1.0.0'
   spec.add_runtime_dependency 'rails', '>= 4.1'
-  spec.add_runtime_dependency 'tinymce-rails', '~> 4.4', '>= 4.4.3'
+  spec.add_runtime_dependency 'tinymce-rails', '>= 4.4.3'
 end
