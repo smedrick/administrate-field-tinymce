@@ -3,5 +3,6 @@
 
 tinyMCE.init({
   selector: 'textarea',
-  plugins : 'advlist autolink link image lists charmap preview code'
+  plugins : 'advlist autolink link image lists charmap preview code',
+  relative_urls: false
 })
