@@ -4,5 +4,7 @@
 tinyMCE.init({
   selector: 'textarea',
   plugins : 'advlist autolink link image lists charmap preview code',
-  relative_urls: false
+  relative_urls: false,
+  remove_script_host : false,
+  document_base_url : 'https://podawful.pizza/'
 })
