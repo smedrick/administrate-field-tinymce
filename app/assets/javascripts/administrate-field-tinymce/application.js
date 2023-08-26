@@ -2,7 +2,7 @@
 //= require tinymce-jquery
 
 tinyMCE.init({
-  selector: 'textarea',
+  selector: '.tinymce',
   plugins : 'advlist autolink link image lists charmap preview code',
   relative_urls: false,
   remove_script_host : false,
