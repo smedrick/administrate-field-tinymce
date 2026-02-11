@@ -3,5 +3,9 @@
   <%= f.label field.attribute %>
 </div>
 <div class="field-unit__field">
-  <%= f.text_area field.attribute, class: "tinymce", rows: field.rows, columns: field.columns %>
+  <%= f.text_area field.attribute, 
+      class: "tinymce", 
+      rows: field.rows, 
+      columns: field.columns,
+      data: { tinymce_options: field.tinymce_options.to_json } %>
 </div>

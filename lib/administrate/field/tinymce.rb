@@ -19,6 +19,10 @@ module Administrate
       def columns
         options.fetch(:columns, 120)
       end
+
+      def tinymce_options
+        options.fetch(:tinymce_options, {})
+      end
     end
   end
 end
